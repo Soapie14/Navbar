@@ -23,7 +23,7 @@ const Navbar = () => {
                             Rescources
                         </a>
                         {/* Dropdown Content */}
-                        <div className="hidden absolute bg-gray-900 text-white group-hover:block mt-2 space-y-2">
+                        <div className="hidden absolute bg-green-900 text-white group-hover:block mt-2 space-y-2">
                             <a href="#" className="block px-4 py-2">Dropdown Item 1</a>
                             <a href="#" className="block px-4 py-2">Dropdown Item 2</a>
                         </div>
