@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react' ;
+
+import logo from './image/white.png';
 
 const Navbar = () => {
     return (
@@ -11,8 +13,9 @@ const Navbar = () => {
                 </div>
 
                 {/* Center Logo */}
-                <div className="text-white font-bold text-xl">
-                    Velosaty Logo
+
+                <div className="text-center">
+                    <img src={logo} alt="Logo" className="w-auto h-auto" />
                 </div>
 
                 {/* Right Side Dropdown and Button Icon */}
@@ -20,7 +23,7 @@ const Navbar = () => {
                     {/* Dropdown Link */}
                     <div className="relative group">
                         <a href="#" className="text-white group-hover:text-gray-300">
-                            Rescources
+                            News(Rescources)
                         </a>
                         {/* Dropdown Content */}
                         <div className="hidden absolute bg-green-900 text-white group-hover:block mt-2 space-y-2">
